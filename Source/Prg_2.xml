@@ -11,8 +11,9 @@
 
   <ProgramsRepository>
     <Programs>
-      <Task MainProgram="Y">
-        <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
+      <Task MainProgram="N">
+        <Header Description="Test" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="2">
+          <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -20,25 +21,14 @@
             <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
-          <TaskType val="B"/>
+          <TaskType val="O"/>
           <External val="N"/>
-          <OpenRCMDIFrame val="N"/>
-          <Closeopentasks val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739462" _time="42530" date="30.07.2025" time="11:48:50"/>
+          <LastModified date="00.00.0000" time="00:00:00"/>
         </Header>
-        <ItemIsn val="1"/>
         <Resource>
-          <Columns>
-            <Column id="1" name="teaasdasd">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <StoredAs id="173" val="1"/>
-              </PropertyList>
-            </Column>
-          </Columns>
-          <ColumnsLastIsn val="1"/>
+          <Columns/>
         </Resource>
         <Information>
           <Key>
@@ -50,8 +40,8 @@
           </Sort>
           <ForceRecordDelete DEL="N"/>
           <EndTaskCondition val="N"/>
-          <EvaluateEndCondition val="I"/>
-          <InitialMode val="E"/>
+          <EvaluateEndCondition val="B"/>
+          <InitialMode val="M"/>
           <Locate Direction="A"/>
           <Range Direction="A"/>
           <VarRange/>
@@ -61,33 +51,33 @@
             <ConfirmCancel val="N"/>
             <ErrorStrategy val="R"/>
             <LockingStrategy val="M"/>
-            <CacheStrategy val="N"/>
+            <CacheStrategy val="D"/>
             <ForceRecordSuffix val="N"/>
-            <TransactionMode val="P"/>
-            <TransactionBegin val="N"/>
+            <TransactionMode val="D"/>
+            <TransactionBegin val="P"/>
             <PreloadView val="N"/>
-            <AllowEmptyDataview val="N"/>
+            <AllowEmptyDataview val="Y"/>
             <KeepCreatedContext val="N"/>
           </TaskProperties>
           <SIDE_WIN>
-            <AllowOptions val="N"/>
+            <AllowOptions val="Y"/>
             <AllowQuery val="Y"/>
-            <AllowModify val="N"/>
-            <AllowCreate val="N"/>
-            <AllowDelete val="N"/>
-            <AllowLocate val="N"/>
-            <AllowRange val="N"/>
-            <AllowIndexChange val="N"/>
-            <AllowSorting val="N"/>
-            <AllowIOFiles val="N"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
             <RecordCycle val="Y"/>
-            <AllowEvents val="N"/>
-            <AllowIndexOptimization val="N"/>
-            <AllowLocationInQuery val="N"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
             <AllowPrintingData val="N"/>
           </SIDE_WIN>
           <WIN>
-            <OpenTaskWindow val="N"/>
+            <OpenTaskWindow val="Y"/>
             <CloseTaskWindow val="Y"/>
             <ForegroundWindow val="Y"/>
             <FlipFld val="N"/>
@@ -107,28 +97,17 @@
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
-            <_TotalVariabls val="1"/>
-            <_TotalVirtuals val="1"/>
             <Event>
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
             <LogicLines>
               <LogicLine>
-                <Select FieldID="1" FlowIsn="1" id="1">
-                  <Column val="1"/>
-                  <Type val="V"/>
-                  <IsParameter val="N"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
                   <Direction val="C"/>
-                </Select>
+                </DATAVIEW_SRC>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -136,18 +115,8 @@
         <TaskForms>
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
-              <Left id="21"/>
-              <Top id="22"/>
-              <Width id="23" val="320"/>
-              <Height id="24" val="200"/>
-              <SystemMenu id="27"/>
-              <MinimizeButton id="28"/>
-              <MaximizeButton id="29"/>
-              <FormUnits id="33" val="1"/>
-              <VerticalFactor id="34" val="8"/>
-              <HorizontalFactor id="35" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Main Program"/>
+              <FormName id="311" valUnicode="Test"/>
               <UserStateIdentifier id="437"/>
             </PropertyList>
           </FormEntry>

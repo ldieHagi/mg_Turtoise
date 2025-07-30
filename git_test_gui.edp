@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Project>
+    <ProjectName val="git_test_gui"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{E54F7725-D9E6-494A-9446-B3AAEC74B99B}"/>
+  </Project>
+
+</Application>

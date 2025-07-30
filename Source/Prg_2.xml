@@ -12,7 +12,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Test" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="2">
+        <Header Description="Test" ISN_2="1" LastIsn="1" id="2">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,10 +25,19 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00.00.0000" time="00:00:00"/>
+          <LastModified _date="739462" _time="42866" date="30.07.2025" time="11:54:26"/>
         </Header>
+        <ItemIsn val="1"/>
         <Resource>
-          <Columns/>
+          <Columns>
+            <Column id="1" name="test2">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <StoredAs id="173" val="1"/>
+              </PropertyList>
+            </Column>
+          </Columns>
+          <ColumnsLastIsn val="1"/>
         </Resource>
         <Information>
           <Key>
@@ -97,6 +106,8 @@
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
+            <_TotalVariabls val="1"/>
+            <_TotalVirtuals val="1"/>
             <Event>
               <EventType val="S"/>
               <PublicObject comp="-1"/>
@@ -108,6 +119,22 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="1" FlowIsn="3" id="1">
+                  <Column val="1"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
